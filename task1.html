@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task1</title>
+    <link rel="stylesheet" href="templates/index.css">
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <span class="error" id="nameError"></span>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <span class="error" id="emailError"></span>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <span class="error" id="passwordError"></span>
+        <br>
+
+        <button type="button" onclick="validateForm()">Submit</button>
+    </form>
+
+    <script src="task1.js"></script>
+</body>
+</html>

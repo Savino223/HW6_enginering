@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2</title>
+    <link rel="stylesheet" href="templates/index.css">
+</head>
+<body>
+    <h2>Calculator</h2>
+    <form id="calculatorForm">
+        <input type="number" id="num1" placeholder="First number">
+        <br>
+        <select id="operation">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+        <br>
+        <input type="number" id="num2" placeholder="Second number">
+        <br>
+        <button type="button" onclick="calculate()">Calculate</button>
+    </form>
+    <p id="result"></p>
+
+    <script src="task2.js"></script>
+</body>
+</html>
